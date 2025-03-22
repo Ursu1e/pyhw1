@@ -26,4 +26,4 @@ for p in text:
             ans = ans + 1
 ed_time = time.time()
 print(f'完成任务所需要的时间是:{ed_time - read_file_time}')
-print(f'{len(text)}\n{ans/2}\n{self_ans}')
+print(f'总共的单词数:{len(text)}\n互为回文串对:{ans/2}\n自身为回文串数:{self_ans}')
